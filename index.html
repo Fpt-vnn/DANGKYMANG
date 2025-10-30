@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Đăng ký Wi-Fi FPT Telecom</title>
+
+  <!-- 🌐 Favicon -->
+  <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/a/a7/FTEL_Logo.svg" />
+
+  <!-- 🌈 CSS -->
+  <style>
+    :root {
+      --bg: #f6f8fa;
+      --card: #ffffff;
+      --accent: #f37021; /* Cam FPT */
+      --accent2: #0072bc; /* Xanh FPT */
+      --muted: #6b7280;
+    }
+    body {
+      font-family: Inter, ui-sans-serif, system-ui;
+      background: var(--bg);
+      margin: 0;
+      padding: 32px;
+      color: #111;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 8px 30px rgba(17, 24, 39, 0.06);
+      animation: fadeIn 0.4s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 12px;
+      font-size: 22px;
+      color: var(--accent2);
+    }
+    .desc {
+      text-align: center;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 20px auto;
+      width: 160px;
+      height: auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #e6e9ee;
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+    button {
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      color: #fff;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100%;
+      font-size: 15px;
+      transition: opacity 0.2s;
+    }
+    button:hover { opacity: 0.9; }
+
+    .loading {
+      display: none;
+      margin-top: 10px;
+      text-align: center;
+      color: var(--accent2);
+      font-size: 14px;
+    }
+    .contact {
+      margin-top: 22px;
+      text-align: center;
+      font-weight: 500;
+      color: var(--accent2);
+    }
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/FTEL_Logo.svg" alt="FPT Telecom Logo" class="logo" />
+      <h1>Đăng ký lắp đặt Wi-Fi FPT Telecom</h1>
+      <p class="desc">Điền thông tin để nhân viên FPT liên hệ tư vấn & hỗ trợ lắp đặt nhanh nhất.</p>
+
+      <form id="fptForm" action="https://formsubmit.co/dovankha20001120@gmail.com" method="POST">
+        <!-- ⚙️ Cấu hình FormSubmit -->
+        <input type="hidden" name="_subject" value="📩 KHÁCH HÀNG MỚI - Đăng ký Wi-Fi FPT Telecom">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <label for="fullname">👤 Họ và tên *</label>
+        <input id="fullname" name="Họ và tên" type="text" placeholder="Nguyễn Văn A" required>
+
+        <label for="phone">📞 Số điện thoại *</label>
+        <input id="phone" name="Số điện thoại" type="tel" placeholder="0912345678" required>
+
+        <label for="address">🏠 Địa chỉ (Tỉnh, Xã — theo địa chỉ mới sau sáp nhập) *</label>
+        <input id="address" name="Địa chỉ" type="text" placeholder="VD: Xã Phú Lộc, Huyện Đại Từ, Tỉnh Thái Nguyên" required>
+
+        <label for="plan">📦 Gói cước muốn đăng ký *</label>
+        <select id="plan" name="Gói cước" required>
+          <option value="">-- Chọn gói cước --</option>
+          <option value="Internet GIGA - 300 Mbps - 180.000đ/tháng">Internet GIGA - 300 Mbps - 180.000đ/tháng</option>
+          <option value="Internet SKY - 1 Gbps - 190.000đ/tháng">Internet SKY - 1 Gbps - 190.000đ/tháng</option>
+          <option value="Gói Trọn tầm nhìn - 500 Mbps - 230.000đ/tháng">Gói Trọn tầm nhìn - 500 Mbps - 230.000đ/tháng</option>
+          <option value="Gói Wi-Fi 360 - 500 Mbps - 230.000đ/tháng">Gói Wi-Fi 360 - 500 Mbps - 230.000đ/tháng</option>
+          <option value="Combo Camera - 300 Mbps - 220.000đ/tháng">Combo Camera - 300 Mbps - 220.000đ/tháng</option>
+          <option value="Gói F-Game - 1 Gbps - 235.000đ/tháng">Gói F-Game - 1 Gbps - 235.000đ/tháng</option>
+          <option value="Triple GigaEyes3 Play4 - FPT Play - 300 Mbps - 270.000đ/tháng">Triple GigaEyes3 Play4 - FPT Play - 300 Mbps - 270.000đ/tháng</option>
+          <option value="Triple GigaEyes3 IQ4S - FPT Play - 300 Mbps - 270.000đ/tháng">Triple GigaEyes3 IQ4S - FPT Play - 300 Mbps - 270.000đ/tháng</option>
+          <option value="Cần tư vấn thêm (chưa chọn gói cụ thể)">Cần tư vấn thêm (chưa chọn gói cụ thể)</option>
+        </select>
+
+        <label for="need">💡 Nhu cầu sử dụng (không bắt buộc)</label>
+        <input id="need" name="Nhu cầu sử dụng" type="text" placeholder="VD: Học online, xem phim, camera, chơi game...">
+
+        <label for="devices">🔢 Bao nhiêu thiết bị sử dụng (không bắt buộc)</label>
+        <input id="devices" name="Số thiết bị" type="number" placeholder="Ví dụ: 3" min="0">
+
+        <button type="submit">🚀 GỬI ĐĂNG KÝ NGAY</button>
+      </form>
+
+      <div class="loading" id="loadingMsg">⏳ Đang gửi thông tin, vui lòng chờ...</div>
+
+      <div class="contact">
+        📞 Liên hệ hỗ trợ: <a href="tel:0384949798">0384 949 798</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("fptForm");
+    const loading = document.getElementById("loadingMsg");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      loading.style.display = "block";
+
+      const data = new FormData(form);
+      try {
+        const res = await fetch(form.action, {
+          method: form.method,
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          loading.textContent = "✅ Gửi thành công! Đang chuyển đến trang cảm ơn...";
+          setTimeout(() => window.location.href = "success.html", 1500);
+        } else {
+          loading.textContent = "❌ Có lỗi khi gửi. Vui lòng thử lại!";
+        }
+      } catch (err) {
+        loading.textContent = "⚠️ Không thể gửi form. Kiểm tra kết nối mạng!";
+      }
+    });
+  </script>
+</body>
+</html>
